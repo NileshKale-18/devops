@@ -3,7 +3,7 @@ This simple static web page using Nginx Image
 
 ## Files
 - `index.html` - static web page
-- `Dockerfile` - Dockercongig
+- `Dockerfile` - Dockerconfig
 - `readme file`- project description
 
 ## How to Run
