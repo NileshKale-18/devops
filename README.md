@@ -1,10 +1,11 @@
-Title-Nginx Docker Image Static Webpage
+# Nginx Docker Image Static Webpage
+This simple static web page using Nginx Image
 
-Files:
-index.html
-Dockerfile
+## Files
+- `index.html` - static web page
+- `Dockerfile` - Dockercongig
+- `readme file`- project description
 
-
-How to Run:
-Build using docker: docker build -t my-nginx-static .
-Run using docker:docker run -d -p 8080:80 my-nginx-static
+## How to Run
+1. Build using docker: `docker build -t my-nginx-static .`
+2. Run: `docker run -d -p 8080:80 my-nginx-static`
